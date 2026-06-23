@@ -18,7 +18,7 @@ pipeline {
                     command: [sleep]
                     args: [infinity]
                   - name: kubectl
-                    image: bitnami/kubectl:1.32
+                    image: rancher/kubectl:v1.32.2
                     command: [sleep]
                     args: [infinity]
                   volumes:
