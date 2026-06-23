@@ -18,7 +18,7 @@ pipeline {
                     command: [sleep]
                     args: [infinity]
                   - name: kubectl
-                    image: rancher/kubectl:v1.32.2
+                    image: alpine/k8s:1.32.3
                     command: [sleep]
                     args: [infinity]
                   volumes:
